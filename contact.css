@@ -1,0 +1,108 @@
+
+.col-4{width: 33.33%;}
+.col-8{width: 66.65%;}
+.row{
+    width: 100%;
+ } 
+ #enquiries{
+	background-color: #f6f8f8;
+}
+
+h1,h2{color:#46BDD1;
+font-size: 50px;
+margin: 10px;
+text-align: center;
+    font-family: 'Denk+One',sans-serif; 
+
+}
+#text{
+	position: absolute;
+	top:300px;
+	left: 250px;
+	margin:50px auto;
+}
+p{
+    color: grey;
+    font-size: 20px;
+    margin: auto;
+    padding:50px;
+    font-size: 20px;  
+}
+form{
+	width:400px;
+	margin: 10px auto;
+	padding:20px;
+
+}
+input{
+	padding: 5px;
+	box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+	margin-top: 10px;
+	width: 350px;
+	height: 25px;
+	border: 2px solid #46BDD1;
+	list-style: none;
+    font-size: 16px;
+	outline: none;
+
+}
+input:hover{
+border: 3px solid #cccccc;
+
+}
+input:active{
+border: 3px solid #bbbbbb;
+}
+
+label{
+	font-size: 20px;
+	margin-top: 10px;
+}
+textarea{
+	margin-top: 10px;
+	width: 350px;
+	height: 100px;
+	border: blue;
+	box-shadow: 1px 1px 5px #888888;
+}
+
+button{
+
+      margin-top: 20px;
+     margin-right: 50px;
+     background-color: #46BDD1; 
+     color: white;
+     padding:10px;
+     text-align: center;
+     width: 100px;
+     display: inline-block;
+     font-size: 16px;
+     border:none;
+     cursor: pointer;
+     -webkit-transition-duration: 0.4s; 
+     transition-duration: 0.4s;
+}
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.b{ position:relative; 
+    left: 1000px;
+    bottom:100px;
+    margin-right: 5px;
+    border-radius: 10px;
+     background-color: #007BB5;
+    border: none;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 10px;
+    width: 150px;
+    height: 30px;
+   
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 2px 2px rgba(0,0,0,0.24);
+
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="filecommun.css">
+	<link rel="stylesheet" type="text/css" href="contact.css">
+	<link href='https://fonts.googleapis.com/css?family=Abel|Philosopher|Basic|Denk+One' rel='stylesheet' type='text/css'>
+   
+    
+	<script type="text/javascript">
+	function change(){
+    document.getElementById('menu').style.backgroundColor="black";}
+  
+  function change1(){
+     document.getElementById('menu').style.backgroundColor="green";
+  }
+	function message(){
+		alert(" Your Message is sucessfully sent !!");
+	}
+	</script>
+
+	
+</head>
+<body onLoad="welc()">
+         <div class="container">
+                <div class="row"><div class="col-2"><img src="../MY ProjectWEB/images/logo11.jpg" alt="logo"></div>
+                 <button class="b" onClick="change1()">GREEN</button>
+                 <button class="b" onClick="change()">BLACK</button>
+<nav id="menu">
+                <div class="row">
+                  
+     	             <ul>
+     		             <li><a href="getStarted.html">Home</a></li>
+     		             <li><a href="FrontEnd.html">Front-End Web </a></li>
+                         <li><a href="contact.html">Contact us</a></li>
+     	             </ul>
+     	          
+                </div>
+</nav>
+           
+    <section>
+            <div class="row" > <h1>CONTACT US</h1></div>
+                <section id="enquiries">
+                         <div class="row" >
+
+<div class="col-4"><img src="../MY ProjectWEB/images/help.png"></div>
+                	           <div id="text">
+                	                <p>Need Somthing Specific ?<br>
+                                    Just send us your questions or concerns by starting a new case <br> we will give you the help you need.</p>
+                               </div>
+                               
+                         </div>
+                 <form >
+                         
+                         	<label for="name">YOUR NAME  :</label>
+                         	<input name="name" id="name" required="required" type="text" placeholder="Nickname">
+                         
+                        
+                         
+                         	<label for="email">YOUR EMAIl :</label>
+                         	<input name="email" type="email" required="required" placeholder="example@domain.com">	
+                        
+                       
+                         	<label for="msg">Type Your Message Here :</label>
+                         	<textarea name="msg" id="msg" required="required"></textarea>
+                         
+                         <br/>
+                        
+                         	<button type="submit" onclick="message()">SEND</button>
+                         	<button type="reset">EARASE</button>
+                      
+                </form>
+          
+         </section>         
+    </section>  
+  	
+
+
+
+  	   <footer>
+  		   <div class="row">
+            <div class="col-12" id="bande"> </div> 
+         </div>
+  	   </footer>
+      </div>
+</body>
+</html>

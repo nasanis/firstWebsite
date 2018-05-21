@@ -1,0 +1,42 @@
+ body{
+
+    font-size: 16px;
+    font-family: 'Basic',sans-serif;
+     
+}
+
+
+h1,h2{
+    font-family: 'Denk+One',sans-serif;   
+}
+ #citation{
+    font-family: monospace;
+    color:  #008000; 
+    float: right;
+    padding-top: 80px;
+       }
+
+nav{
+    background-color:  #ffcc00;
+    width: 100%;
+    display: fixed;
+}
+nav li{ display: inline-block;
+    font-size: 25px;
+    color:  white;
+    text-align: center;
+    padding: 10px;
+    margin:auto;
+
+}
+
+ ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: monospace;   
+ }  
+#bande{
+    background-color: #007BB5;
+    height: 50px;
+    width: 100%;
+}

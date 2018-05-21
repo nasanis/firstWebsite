@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>getStarted</title>
+	<link rel="stylesheet" type="text/css" href="getStarted.css">
+	<link rel="stylesheet" type="text/css" href="filecommun.css">
+<link href='https://fonts.googleapis.com/css?family=Abel|Philosopher|Basic|Denk+One' rel='stylesheet' type='text/css'>
+
+	<meta charset="utf-8">
+</head>
+<body>
+         <div class="container">
+                <div class="row">
+                     <div class="col-1"><img src="images/logo11.jpg" alt="logo"></div>
+                     <div class="col-10"><h1>GET STARTED</h1><br><h2>START SMALL..THINK BIG...SCALE FAST</h2>
+                     <button class="b" onClick="change1()">GREEN</button>
+                     <button class="b" onClick="change()">BLACK</button>
+                    </div>
+                </div>
+<nav id="menu">
+             <div class="row">
+     	             <ul>
+     		             <li><a href="getStarted.html">Home</a></li>
+     		             <li><a href="FrontEnd.html">Front-End Web </a></li>
+                         <li><a href="contact.html">Contact us</a></li>
+     	             </ul>
+             </div>
+</nav>
+           <div class="row"></div>
+         <section>
+            <div class="row" id="container" >
+            	      <div class="col-6" >
+            	        <div class="row" >
+            	             <div class="row"><img src="..\MY ProjectWEB\images\enroll1.png"></div>
+            	             <div class="row">
+            	             	    <h2 class="sign">Sign up to get access to all new courses, Web End Technologies ,
+                               Via the MAILs that will be sent to you!!</h2>
+
+
+            	             </div>
+                      </div>
+            	      </div>
+
+                   <!-- formulaire -->
+                      <form name="myForm" onsubmit="return validateForm()">
+                    	   <label for="fisrtName" >NAME:</label>
+                    	   <div class="row">
+                            <div class="col-6"><input type="text" class="input" name="first" placeholder="FirstName"/></div>
+                            <div class="col-6">  <input type="text" class="input" name="last" placeholder="LastName"/></div>
+                         </div>
+
+                          <label for="email">EMAIL:</label>
+                              <div>
+                              <input type="email" class="input" name="mail" placeholder="mail@domain.com">
+                              </div>
+
+                    	        <label for="PassWord" id="passwd">PASSWORD:</label>
+                              <div><input type="password" name="pwd" class="input" placeholder="password"></div>
+
+                    	       	<input id="submit" type="submit"  value="Submit">
+
+                           </form>
+             </section>
+						 <script type="text/javascript">
+									   function change(){
+									     document.getElementById('menu').style.backgroundColor="black";
+									   }
+									   function change1(){
+									      document.getElementById('menu').style.backgroundColor="green";
+									   }
+
+									 	function validateForm(){
+									 	var name= document.forms["myForm"]["first"].value;
+									 	var lastN= document.forms["myForm"]["last"].value;
+									 	var mail= document.forms["myForm"]["mail"].value;
+									 	var pwd= document.forms["myForm"]["pwd"].value;
+
+									 	if(name == "" || lastN == "" || mail == "" || pwd == "")
+									 	alert("All fields are required");
+
+									 }
+									 </script>
+      </div>
+</body>
+</html>
